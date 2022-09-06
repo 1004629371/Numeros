@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Daniel
+ * @author santiago
  */
 public class agregar extends javax.swing.JFrame {
 public int listaNumeros [] = new int [100];
@@ -83,7 +83,7 @@ public int listaNumeros [] = new int [100];
 
         jPanel3.setLayout(new java.awt.GridLayout(1, 0));
 
-        Agregar.setBackground(new java.awt.Color(255, 255, 0));
+        Agregar.setBackground(new java.awt.Color(51, 255, 255));
         Agregar.setText("Agregar");
         Agregar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -100,7 +100,7 @@ public int listaNumeros [] = new int [100];
         });
         jPanel3.add(Agregar);
 
-        Mostrar.setBackground(new java.awt.Color(255, 255, 0));
+        Mostrar.setBackground(new java.awt.Color(51, 255, 255));
         Mostrar.setText("Mostrar");
         Mostrar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -117,7 +117,7 @@ public int listaNumeros [] = new int [100];
         });
         jPanel3.add(Mostrar);
 
-        Ordenar.setBackground(new java.awt.Color(255, 255, 0));
+        Ordenar.setBackground(new java.awt.Color(51, 255, 255));
         Ordenar.setText("Ordenar");
         Ordenar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
